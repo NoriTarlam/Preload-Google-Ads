@@ -79,6 +79,6 @@ class NativeADStyle {
             minWidth: 320,
             minHeight: 57,
             maxWidth: 400,
-            maxHeight: 135,
+            maxHeight: 100,
           );
 }
