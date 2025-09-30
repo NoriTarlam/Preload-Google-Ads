@@ -22,7 +22,7 @@ class ShowNative extends StatelessWidget {
         return isSmall ? const NativeSmall() : const MediumNative();
       } else {
         // If the native ad should not be shown, return an empty space.
-        return const SizedBox.shrink();
+        return const SizedBox.shrink(child: Text("TEST"));
       }
     } else {
       nativeCounter++;
